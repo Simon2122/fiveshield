@@ -1,4 +1,4 @@
-# 🛡️ FiveShield – The Best Anti‑DDoS for FiveM & RedM Servers
+# FiveShield – Specialized Anti‑DDoS for FiveM & RedM Servers
 
 **Website:** [https://fiveshield.co](https://fiveshield.co)
 
@@ -8,6 +8,9 @@ FiveShield delivers powerful, low‑latency, multi‑layer DDoS protection—cra
 
 ## 🌐 Key Features
 
+* **20+ Tbps Global DDoS Mitigation Capacity**
+  Backed by one of the largest defense networks in the world, FiveShield can absorb over **20 terabits per second** of attack traffic, ensuring unparalleled resilience against even the most sophisticated attacks.
+
 * **Layer 3, 4 & 7 DDoS Mitigation**
   Comprehensive defense against UDP/TCP/ICMP floods, SYN attacks, DNS amplification, and layer‑7 request bursts—all tuned for gaming environments.
 
@@ -16,6 +19,9 @@ FiveShield delivers powerful, low‑latency, multi‑layer DDoS protection—cra
 
 * **Low‑Latency Anycast Routing**
   Distributed nodes ensure fast routing and minimal ping impact, maintaining a smooth experience during peak playtimes.
+
+* **Cloudflare Enterprise Caching**
+  Integrated with **Cloudflare caching** for the fastest response times on static and dynamic content. This dramatically improves performance and reduces load under high traffic conditions.
 
 * **Dynamic Traffic Filtering**
   Real‑time inspection filters malicious flows automatically, without human intervention—maximizing uptime and minimizing lag.
