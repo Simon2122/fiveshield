@@ -1,6 +1,7 @@
 # FiveShield – Targeted Anti‑DDoS Protection for FiveM & RedM Servers
 
 **Website:** [https://fiveshield.co](https://fiveshield.co)
+
 **Discord:** [https://discord.fiveshield.co](https://discord.fiveshield.co)
 
 FiveShield offers specialized, low-latency DDoS protection tailored specifically for **FiveM** & **RedM**. Unlike generic Anycast networks, FiveShield uses a **dedicated per-player proxy system**—ensuring pinpoint protection and consistent routing for every connection.
