@@ -1,62 +1,62 @@
-# FiveShield – Specialized Anti‑DDoS for FiveM & RedM Servers
+# FiveShield – Targeted Anti‑DDoS Protection for FiveM & RedM Servers
 
 **Website:** [https://fiveshield.co](https://fiveshield.co)
 
-FiveShield delivers powerful, low‑latency, multi‑layer DDoS protection—crafted specifically for gaming communities running **FiveM** & **RedM**.
+FiveShield offers specialized, low-latency DDoS protection tailored specifically for **FiveM** & **RedM**. Unlike generic Anycast networks, FiveShield uses a **dedicated per-player proxy system**—ensuring pinpoint protection and consistent routing for every connection.
 
 ---
 
 ## 🌐 Key Features
 
 * **20+ Tbps Global DDoS Mitigation Capacity**
-  Backed by one of the largest defense networks in the world, FiveShield can absorb over **20 terabits per second** of attack traffic, ensuring unparalleled resilience against even the most sophisticated attacks.
+  Backed by one of the largest global defense networks, FiveShield absorbs over **20 terabits per second** of attack traffic—offering unmatched resilience and peace of mind.
 
-* **Layer 3, 4 & 7 DDoS Mitigation**
-  Comprehensive defense against UDP/TCP/ICMP floods, SYN attacks, DNS amplification, and layer‑7 request bursts—all tuned for gaming environments.
+* **Layer 3, 4 & 7 DDoS Protection**
+  Defense against floods (UDP/TCP/ICMP), SYN attacks, DNS amplification, and L7 HTTP request bursts—optimized specifically for real-time game traffic.
 
-* **Game‑Optimized Proxy Network**
-  A lightweight proxy masks your server’s IP behind an Anycast edge infrastructure, absorbing malicious traffic before it reaches your origin.
+* **Per-Player Proxy Assignment**
+  Each player is routed through a **dedicated proxy node**, ensuring consistent performance and individualized traffic management. This guarantees that attacks targeting one player won’t affect others.
 
-* **Low‑Latency Anycast Routing**
-  Distributed nodes ensure fast routing and minimal ping impact, maintaining a smooth experience during peak playtimes.
+* **Consistent Low Latency**
+  Proxies are geographically and network-optimized to keep ping low and stable, even during large-scale attacks.
 
 * **Cloudflare Enterprise Caching**
-  Integrated with **Cloudflare caching** for the fastest response times on static and dynamic content. This dramatically improves performance and reduces load under high traffic conditions.
+  Seamless integration with **Cloudflare** improves speed and protects your backend from HTTP-based stress and exploit attempts.
 
-* **Dynamic Traffic Filtering**
-  Real‑time inspection filters malicious flows automatically, without human intervention—maximizing uptime and minimizing lag.
+* **Real-Time Threat Filtering**
+  Malicious traffic is filtered automatically via intelligent flow inspection—maintaining uptime without constant manual intervention.
 
 ---
 
 ## 🚀 Benefits
 
-* **Uninterrupted Gameplay**
-  Your community stays online—even during heavy DDoS attacks—thanks to robust, always‑on defenses.
+* **Dedicated & Isolated Routing**
+  Each connection is isolated through its own proxy, providing greater fault tolerance and reducing cross-impact during attacks.
 
-* **Optimized Performance**
-  Low-latency architecture designed for gaming ensures packet delivery stays fast and efficient.
+* **Zero Exposure of Origin IP**
+  Your real server stays hidden—every connection is proxied and scrubbed before reaching your backend.
 
-* **Scalable Infrastructure**
-  Built to handle both small community servers and large public gaming environments.
-
----
-
-## 🎯 Ideal Use Cases
-
-* Public/Gateway FiveM & RedM servers
-* PvP, roleplay, or community servers facing frequent DDoS targeting
-* Server hosting providers seeking uptime and performance guarantees
+* **Highly Scalable & Modular**
+  The per-player proxy model scales easily, letting you handle both small servers and large gaming networks with fine-grained control.
 
 ---
 
-## 📞 Get Protected Today
+## 🎯 Ideal For
+
+* Public FiveM & RedM servers under frequent attack
+* Roleplay or PvP communities needing performance and uptime guarantees
+* Hosting providers offering proxy protection per client/server
+
+---
+
+## 📞 Ready to Protect Your Server?
 
 Visit **[fiveshield.co](https://fiveshield.co)** to:
 
-* Learn more about our anti-DDoS architecture
-* Review detailed performance and latency data
-* Access support and deployment documentation via our Discord
+* Explore the proxy-per-player architecture
+* Access performance benchmarks and deployment guides
+* Join our support Discord for personalized setup help
 
 ---
 
-**FiveShield isn’t a generic solution—it’s a purpose‑built, game‑aware DDoS shield for FiveM/RedM.** Keep your server online, performant, and resilient—no compromises required.
+**FiveShield is not a one-size-fits-all solution. It’s a precision-engineered, game-optimized DDoS shield**—built specifically for the realities of **FiveM** and **RedM** server hosting.
