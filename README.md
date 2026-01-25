@@ -1,17 +1,17 @@
-# FiveShield – Targeted Anti‑DDoS Protection for FiveM & RedM Servers
+# fiveshield – Targeted Anti‑DDoS Protection for FiveM & RedM Servers
 
 **Website:** [https://fiveshield.co](https://fiveshield.co)
 
 **Discord:** [https://discord.fiveshield.co](https://discord.fiveshield.co)
 
-FiveShield offers specialized, low-latency DDoS protection tailored specifically for **FiveM** & **RedM**. Unlike generic Anycast networks, FiveShield uses a **dedicated per-player proxy system**—ensuring pinpoint protection and consistent routing for every connection.
+fiveshield offers specialized, low-latency DDoS protection tailored specifically for **FiveM** & **RedM**. Unlike generic Anycast networks, fiveshield uses a **dedicated per-player proxy system**—ensuring pinpoint protection and consistent routing for every connection.
 
 ---
 
 ## 🌐 Key Features
 
 * **20+ Tbps Global DDoS Mitigation Capacity**
-  Backed by one of the largest global defense networks, FiveShield absorbs over **20 terabits per second** of attack traffic—offering unmatched resilience and peace of mind.
+  Backed by one of the largest global defense networks, fiveshield absorbs over **20 terabits per second** of attack traffic—offering unmatched resilience and peace of mind.
 
 * **Layer 3, 4 & 7 DDoS Protection**
   Defense against floods (UDP/TCP/ICMP), SYN attacks, DNS amplification, and L7 HTTP request bursts—optimized specifically for real-time game traffic.
@@ -61,4 +61,4 @@ Visit **[fiveshield.co](https://fiveshield.co)** to:
 
 ---
 
-**FiveShield is not a one-size-fits-all solution. It’s a precision-engineered, game-optimized DDoS shield**—built specifically for the realities of **FiveM** and **RedM** server hosting.
+**fiveshield is not a one-size-fits-all solution. It’s a precision-engineered, game-optimized DDoS shield**—built specifically for the realities of **FiveM** and **RedM** server hosting.
