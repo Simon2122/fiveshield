@@ -1,64 +1,120 @@
-# fiveshield – Targeted Anti‑DDoS Protection for FiveM & RedM Servers
+<h1 align="center">fiveshield</h1>
 
-**Website:** [https://fiveshield.co](https://fiveshield.co)
+<p align="center">
+  <strong>The #1 Anti-DDoS Protection for FiveM &amp; RedM Servers</strong><br>
+  Purpose-built per-player proxy protection with XDP/eBPF filtering, 17 Tbps mitigation capacity, and 9+ global locations.
+</p>
 
-**Discord:** [https://discord.fiveshield.co](https://discord.fiveshield.co)
+<p align="center">
+  <a href="https://fiveshield.co"><img alt="Website" src="https://img.shields.io/badge/website-fiveshield.co-3b82f6?style=for-the-badge"></a>
+  <a href="https://fiveshield.co/dashboard"><img alt="Dashboard" src="https://img.shields.io/badge/dashboard-login-10b981?style=for-the-badge"></a>
+  <a href="https://discord.fiveshield.co"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+  <img alt="DDoS Capacity" src="https://img.shields.io/badge/mitigation-17%20Tbps-red?style=for-the-badge">
+  <img alt="Uptime" src="https://img.shields.io/badge/uptime-99.99%25-success?style=for-the-badge">
+  <img alt="Pricing" src="https://img.shields.io/badge/from-%240.012%2Fplayer%2Fday-yellow?style=for-the-badge">
+</p>
 
-fiveshield offers specialized, low-latency DDoS protection tailored specifically for **FiveM** & **RedM**. Unlike generic Anycast networks, fiveshield uses a **dedicated per-player proxy system**—ensuring pinpoint protection and consistent routing for every connection.
+---
+
+> **The best anti-DDoS for FiveM in 2026.** Stop DDoS attacks on your FiveM or RedM server in under 5 minutes — starting at **$0.012 CAD per player per day**. No contracts, pay only for your daily peak.
+
+## Table of Contents
+
+- [Why fiveshield](#why-fiveshield-is-the-best-anti-ddos-for-fivem)
+- [Key Features](#-key-features)
+- [Benefits](#-benefits)
+- [Who It's For](#-ideal-for)
+- [How It Works](#️-how-it-works)
+- [Pricing](#-pricing)
+- [Get Started](#-ready-to-stop-ddos-attacks-on-your-fivem-server)
+
+---
+
+## Why fiveshield is the Best Anti-DDoS for FiveM
+
+Generic Anycast scrubbers and shared VPS "protections" weren't built for FiveM's UDP-heavy, real-time traffic. **fiveshield is engineered exclusively for FiveM and RedM** — every layer of our stack, from XDP/eBPF packet filtering to per-player proxy assignment, is tuned for the cfx.re protocol.
+
+If your FiveM server keeps getting DDoSed, fiveshield is the proven fix.
 
 ---
 
 ## 🌐 Key Features
 
-* **20+ Tbps Global DDoS Mitigation Capacity**
-  Backed by one of the largest global defense networks, fiveshield absorbs over **20 terabits per second** of attack traffic—offering unmatched resilience and peace of mind.
+* **17 Tbps DDoS Mitigation Capacity**
+  Our L4 proxy fleet runs on top-tier infrastructure with **17 Tbps** of global attack-absorption capacity — enough to stop any real-world DDoS attack aimed at a FiveM server.
 
 * **Layer 3, 4 & 7 DDoS Protection**
-  Defense against floods (UDP/TCP/ICMP), SYN attacks, DNS amplification, and L7 HTTP request bursts—optimized specifically for real-time game traffic.
+  Kernel-level defense against UDP/TCP/ICMP floods, SYN floods, amplification attacks, and L7 abuse — optimized for FiveM's UDP game traffic and HTTP resource downloads.
+
+* **XDP / eBPF Wire-Speed Filtering**
+  Our proxy nodes run a custom **XDP program** that performs per-IP rate limiting, SYN-flood mitigation, and active-port filtering at the network card — before packets ever touch the kernel stack. Backed by nftables for stateful filtering and a real-time player whitelist.
 
 * **Per-Player Proxy Assignment**
-  Each player is routed through a **dedicated proxy node**, ensuring consistent performance and individualized traffic management. This guarantees that attacks targeting one player won’t affect others.
+  Every connecting player is routed through a **dedicated proxy node** assigned dynamically by our API based on location, load, and availability. An attack targeting one player cannot degrade the experience of the rest of your server.
 
-* **Consistent Low Latency**
-  Proxies are geographically and network-optimized to keep ping low and stable, even during large-scale attacks.
+* **9+ Global Proxy Locations Across 4 Continents**
+  Multi-point redundancy means if one location is targeted, players are seamlessly distributed across the rest — delivering **99.99% uptime** and **sub-20 ms ping** for legitimate players worldwide.
 
-* **Cloudflare Enterprise Caching**
-  Seamless integration with **Cloudflare** improves speed and protects your backend from HTTP-based stress and exploit attempts.
+* **Hidden Origin IP**
+  Your real server IP is never exposed. All game traffic is proxied and scrubbed before it reaches your backend, eliminating the root cause of most FiveM DDoS incidents.
 
-* **Real-Time Threat Filtering**
-  Malicious traffic is filtered automatically via intelligent flow inspection—maintaining uptime without constant manual intervention.
+* **Global CDN for Resource Downloads**
+  Integrated CDN with **405 Tb/s capacity**, **98% cache hit rate**, and **330+ edge locations** — players download assets from the edge instead of your origin, slashing your bandwidth bill and join times.
+
+* **txAdmin Protection**
+  The txAdmin panel is firewalled behind the same protection layer — no more brute-force or unauthorized access attempts hitting your management interface.
 
 ---
 
 ## 🚀 Benefits
 
-* **Dedicated & Isolated Routing**
-  Each connection is isolated through its own proxy, providing greater fault tolerance and reducing cross-impact during attacks.
-
-* **Zero Exposure of Origin IP**
-  Your real server stays hidden—every connection is proxied and scrubbed before reaching your backend.
-
-* **Highly Scalable & Modular**
-  The per-player proxy model scales easily, letting you handle both small servers and large gaming networks with fine-grained control.
+* **Isolated Per-Player Routing** — Attacks are contained to a single proxy node; the rest of your playerbase stays online.
+* **Zero Origin Exposure** — Only sanitized, validated FiveM traffic ever reaches your server.
+* **Pay Only for What You Use** — Billing is based on your **daily peak player count**, charged at midnight (ET). From **$0.012/player/day**, no commitment, cancel anytime.
+* **5-Minute Setup** — Drop the Lua resource into `resources/`, add one line to `server.cfg`, restart. Done.
+* **Scales From 8 to 2,048+ Slots** — Identical protection for small RP communities and flagship networks alike.
 
 ---
 
 ## 🎯 Ideal For
 
-* Public FiveM & RedM servers under frequent attack
-* Roleplay or PvP communities needing performance and uptime guarantees
-* Hosting providers offering proxy protection per client/server
+* FiveM and RedM servers that are **actively being DDoSed**
+* Roleplay, PvP, and competitive communities that need guaranteed uptime
+* Server owners tired of shared VPS "DDoS protection" that collapses under real attacks
+* Hosting providers reselling per-player protection to their clients
 
 ---
 
-## 📞 Ready to Protect Your Server?
+## 🛠️ How It Works
+
+1. **Player connects** to your advertised fiveshield IP.
+2. **Layer 7 filter** rejects anything that isn't a valid cfx.re handshake.
+3. **fiveshield API** assigns the player to the optimal L4 proxy instance.
+4. **XDP + nftables** scrub malicious packets at wire speed.
+5. **Clean traffic** arrives at your hidden origin server.
+
+---
+
+## 💸 Pricing
+
+| Daily Peak Players | From |
+| --- | --- |
+| Any size | **$0.012 CAD / player / day** |
+
+All features — DDoS protection, CDN, control panel, txAdmin shielding, 24/7 support — are included. Volume discounts apply automatically. No contracts, no setup fees; just a one-time $10 CAD credit deposit.
+
+---
+
+## 📞 Ready to Stop DDoS Attacks on Your FiveM Server?
 
 Visit **[fiveshield.co](https://fiveshield.co)** to:
 
-* Explore the proxy-per-player architecture
-* Access performance benchmarks and deployment guides
-* Join our support Discord for personalized setup help
+* Get protected in under 5 minutes
+* Read the installation and architecture guides
+* Join our Discord for live support
 
 ---
 
-**fiveshield is not a one-size-fits-all solution. It’s a precision-engineered, game-optimized DDoS shield**—built specifically for the realities of **FiveM** and **RedM** server hosting.
+**fiveshield isn't a generic scrubber. It's the #1 purpose-built anti-DDoS solution for FiveM and RedM** — XDP-accelerated, per-player isolated, and backed by 17 Tbps of mitigation capacity across 4 continents.
+
+*Keywords: anti ddos fivem, best anti ddos fivem 2026, fivem ddos protection, redm ddos protection, fivem server protection, fivem reverse proxy, fivem xdp filtering, cfx server protection, stop ddos attacks fivem, fivem low latency proxy.*
