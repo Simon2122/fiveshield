@@ -11,12 +11,12 @@
   <a href="https://discord.fiveshield.co"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   <img alt="DDoS Capacity" src="https://img.shields.io/badge/mitigation-17%20Tbps-red?style=for-the-badge">
   <img alt="Uptime" src="https://img.shields.io/badge/uptime-99.99%25-success?style=for-the-badge">
-  <img alt="Pricing" src="https://img.shields.io/badge/from-%240.012%2Fplayer%2Fday-yellow?style=for-the-badge">
+  <img alt="Pricing" src="https://img.shields.io/badge/from-%240.04%2Fplayer%2Fday-yellow?style=for-the-badge">
 </p>
 
 ---
 
-> **The best anti-DDoS for FiveM in 2026.** Stop DDoS attacks on your FiveM or RedM server in under 5 minutes — starting at **$0.012 CAD per player per day**. No contracts, pay only for your daily peak.
+> **The best anti-DDoS for FiveM in 2026.** Stop DDoS attacks on your FiveM or RedM server in under 5 minutes — starting at **$0.04 CAD per player per day**. No contracts, pay only for your daily peak.
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ If your FiveM server keeps getting DDoSed, fiveshield is the proven fix.
   Kernel-level defense against UDP/TCP/ICMP floods, SYN floods, amplification attacks, and L7 abuse — optimized for FiveM's UDP game traffic and HTTP resource downloads.
 
 * **XDP / eBPF Wire-Speed Filtering**
-  Our proxy nodes run a custom **XDP program** that performs per-IP rate limiting, SYN-flood mitigation, and active-port filtering at the network card — before packets ever touch the kernel stack. Backed by nftables for stateful filtering and a real-time player whitelist.
+  Our proxy nodes run a custom **XDP program** that performs per-IP rate limiting, SYN-flood mitigation, and active-port filtering at the network card — before packets ever touch the kernel stack. Backed by BPF maps for stateful filtering and a real-time player whitelist.
 
 * **Per-Player Proxy Assignment**
   Every connecting player is routed through a **dedicated proxy node** assigned dynamically by our API based on location, load, and availability. An attack targeting one player cannot degrade the experience of the rest of your server.
@@ -70,7 +70,7 @@ If your FiveM server keeps getting DDoSed, fiveshield is the proven fix.
 
 * **Isolated Per-Player Routing** — Attacks are contained to a single proxy node; the rest of your playerbase stays online.
 * **Zero Origin Exposure** — Only sanitized, validated FiveM traffic ever reaches your server.
-* **Pay Only for What You Use** — Billing is based on your **daily peak player count**, charged at midnight (ET). From **$0.012/player/day**, no commitment, cancel anytime.
+* **Pay Only for What You Use** — Billing is based on your **daily peak player count**, charged at midnight (ET). From **$0.04/player/day**, no commitment, cancel anytime.
 * **5-Minute Setup** — Drop the Lua resource into `resources/`, add one line to `server.cfg`, restart. Done.
 * **Scales From 8 to 2,048+ Slots** — Identical protection for small RP communities and flagship networks alike.
 
@@ -90,7 +90,7 @@ If your FiveM server keeps getting DDoSed, fiveshield is the proven fix.
 1. **Player connects** to your advertised fiveshield IP.
 2. **Layer 7 filter** rejects anything that isn't a valid cfx.re handshake.
 3. **fiveshield API** assigns the player to the optimal L4 proxy instance.
-4. **XDP + nftables** scrub malicious packets at wire speed.
+4. **XDP** scrubs malicious packets at wire speed.
 5. **Clean traffic** arrives at your hidden origin server.
 
 ---
@@ -99,7 +99,7 @@ If your FiveM server keeps getting DDoSed, fiveshield is the proven fix.
 
 | Daily Peak Players | From |
 | --- | --- |
-| Any size | **$0.012 CAD / player / day** |
+| Any size | **$0.04 CAD / player / day** (lower at scale) |
 
 All features — DDoS protection, CDN, control panel, txAdmin shielding, 24/7 support — are included. Volume discounts apply automatically. No contracts, no setup fees; just a one-time $10 CAD credit deposit.
 
